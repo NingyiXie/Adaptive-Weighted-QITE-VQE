@@ -4,7 +4,7 @@ This repository provides the implementation and experimental data for the paper 
 
 ## AWQV: Adaptive Weighted QITE-VQE
 
-AWQV integrates updates from compressed Quantum Imaginary Time Evolution (cQITE) into gradient-based optimization using a dynamic weighting scheme. The scheme initially favors cQITE updates to establish a strong initialization and gradually shifts toward the gradient component as the energy expectation converges.
+AWQV integrates updates from compressed Quantum Imaginary Time Evolution (cQITE) into gradient-based optimization using a dynamic weighting scheme. The scheme initially favors cQITE updates to establish an initialization and gradually shifts toward the gradient component as the energy expectation converges.
 
 ## Repository Structure
 

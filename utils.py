@@ -2,7 +2,6 @@ import tensorcircuit as tc
 import tensorcircuit.quantum as qu
 import torch
 import torch.optim as optim
-import json
 import numpy as np
 
 import networkx as nx
@@ -172,7 +171,7 @@ def solve_linear_equation_lstsq(S, b, display = False):
     return a, residual_norm
 
 
-def two_qubit_ratations(num_qubits,operationList = ['Y','ZY','XY','YZ','YX']):
+def two_qubit_rotations(num_qubits,operationList = ['Y','ZY','XY','YZ','YX']):
     idx_list = [i for i in range(num_qubits)]
 
     layers = []
