@@ -1,6 +1,6 @@
 # Adaptive Weighted QITE-VQE Algorithm for Combinatorial Optimization Problems
 
-This repository provides the implementation and experimental data for the paper "An Adaptive Weighted QITE-VQE Algorithm for Combinatorial Optimization Problems".
+This repository provides the implementation and experimental data for the paper [An Adaptive Weighted QITE-VQE Algorithm for Combinatorial Optimization Problems](https://arxiv.org/abs/2504.10651).
 
 ## AWQV: Adaptive Weighted QITE-VQE
 
